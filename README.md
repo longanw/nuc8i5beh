@@ -20,7 +20,7 @@
 | SSD              | NONE                                   |
 | Card Reader      | microSDXC Card Reader                  |
 | SMBios           | MacMini8,1                             |
-| BootLoader       | OpenCore 0.7.0                         |
+| BootLoader       | OpenCore 0.7.1                         |
 
 
 #### 驱动情况
