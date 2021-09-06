@@ -45,7 +45,8 @@
 - [Intel](https://ark.intel.com/content/www/cn/zh/ark/products/series/129705/intel-nuc-kit-with-8th-generation-intel-core-processors.html) 第八代智能英特尔® 酷睿™ 处理器的NUC 套件
 - [Acidanthera](https://github.com/acidanthera) 维护的项目
 - [Rehabman](https://github.com/RehabMan) 和 [黑果小兵](https://github.com/daliansky) 维护的项目
-- [zxystd](https://github.com/OpenIntelWireless/itlwm) 开发的Intel WIFI驱动
+- [@zxystd](https://github.com/OpenIntelWireless/itlwm) 开发的Intel WIFI和Bluetooth驱动
+- [@zearp](https://github.com/zearp/Nucintosh) 精简编译的Intel WIFI和Bluetooth驱动
 - [Dortania](https://dortania.github.io/OpenCore-Install-Guide/)的OpenCore安装指引
 - [码云](https://gitee.com) 
 - [github.com](https://github.com) 
