@@ -66,7 +66,7 @@ Boot -> Secure Boot -> Disable
 | MacInstaller| [link](https://github.com/longanw/nuc8i5beh/tools/MacInstaller.zip) | Script to create a recovery USB or an installer online   |
 | BT-LinkeySync| [link](https://github.com/digitalbirdo/BT-LinkkeySync) | Script to synchronize bluetooth link keys from macOS to windows |
 
-### Buy me a coffee
+#### Buy me a coffee
 
 | WeChat Pay | Alipay | 
 | ---| --- |
