@@ -115,6 +115,8 @@
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -313,13 +315,13 @@
 				<key>BundlePath</key>
 				<string>IntelBluetoothFirmware.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>Intel Bluetooth driver</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/IntelBluetoothFirmware</string>
 				<key>MaxKernel</key>
-				<string>20.9.9</string>
+				<string></string>
 				<key>MinKernel</key>
 				<string></string>
 				<key>PlistPath</key>
@@ -347,9 +349,45 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>BlueToolFixup.kext</string>
+				<key>Comment</key>
+				<string>Bluetooth fixups for Monterey or newer</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/BlueToolFixup</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>21.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>AirportItlwm-M.kext</string>
+				<key>Comment</key>
+				<string>intel wifi for Monterey</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/AirportItlwm</string>
+				<key>MaxKernel</key>
+				<string>21.9.9</string>
+				<key>MinKernel</key>
+				<string>21.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>AirportItlwm-B.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>intel wifi for Big Sur</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -367,7 +405,7 @@
 				<key>BundlePath</key>
 				<string>AirportItlwm-C.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>intel wifi for Catalina</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -725,7 +763,7 @@
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data></data>
+			<data>ExcM+qxi</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -808,6 +846,8 @@
 		<key>Drivers</key>
 		<array>
 			<dict>
+				<key>Comment</key>
+				<string></string>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 				<key>Enabled</key>
@@ -816,6 +856,8 @@
 				<string></string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string></string>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
 				<key>Enabled</key>
@@ -824,6 +866,8 @@
 				<string></string>
 			</dict>
 			<dict>
+				<key>Comment</key>
+				<string></string>
 				<key>Path</key>
 				<string>OpenHfsPlus.efi</string>
 				<key>Enabled</key>
@@ -941,6 +985,8 @@
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
+			<key>ResizeGpuBars</key>
+			<integer>-1</integer>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
