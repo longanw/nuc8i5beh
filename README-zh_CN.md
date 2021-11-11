@@ -67,7 +67,7 @@ Boot -> Secure Boot -> Disable
 | GenSMBIOS| [link](https://github.com/corpnewt/GenSMBIOS) | 生成三码，白嫖党专用 |
 | ssdtPRGen| [link](https://github.com/Piker-Alpha/ssdtPRGen.sh) | CPU变频生成脚本 |
 | ProperTree| [link](https://github.com/corpnewt/ProperTree) | plist编辑利器 |
-| MacInstaller| [link](https://github.com/longanw/nuc8i5beh/tools/MacInstaller.zip) | 系统恢复兼做在线系统安装U盘用脚本   |
+| MacInstaller| [link](https://github.com/longanw/nuc8i5beh/blob/master/tools/MacInstaller.zip) | 系统恢复兼做在线系统安装U盘用脚本   |
 | BT-LinkeySync| [link](https://github.com/digitalbirdo/BT-LinkkeySync) | 生成双系统蓝牙鼠标共用配置脚本 |
 
 ### 赞助，一分也是爱！
