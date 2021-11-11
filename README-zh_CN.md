@@ -70,7 +70,7 @@ Boot -> Secure Boot -> Disable
 | MacInstaller| [link](https://github.com/longanw/nuc8i5beh/tools/MacInstaller.zip) | 系统恢复兼做在线系统安装U盘用脚本   |
 | BT-LinkeySync| [link](https://github.com/digitalbirdo/BT-LinkkeySync) | 生成双系统蓝牙鼠标共用配置脚本 |
 
-### 赞助，一分也是爱！
+#### 赞助，一分也是爱！
 
 | 微信支付 | 支付宝 | 
 | ---| --- |
