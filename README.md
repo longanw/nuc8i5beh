@@ -63,7 +63,7 @@ Boot -> Secure Boot -> Disable
 | GenSMBIOS| [link](https://github.com/corpnewt/GenSMBIOS) | Generator for MLB,SN & UUID |
 | ssdtPRGen| [link](https://github.com/Piker-Alpha/ssdtPRGen.sh) | Script to create ssdt-pr.dsl for Apple Power Management Support |
 | ProperTree| [link](https://github.com/corpnewt/ProperTree) | .plist files editor |
-| MacInstaller| [link](https://github.com/longanw/nuc8i5beh/tools/MacInstaller.zip) | Script to create a recovery USB or an installer online   |
+| MacInstaller| [link](https://github.com/longanw/nuc8i5beh/blob/master/tools/MacInstaller.zip) | Script to create a recovery USB or an installer online   |
 | BT-LinkeySync| [link](https://github.com/digitalbirdo/BT-LinkkeySync) | Script to synchronize bluetooth link keys from macOS to windows |
 
 #### Buy me a coffee
