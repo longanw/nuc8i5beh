@@ -1,14 +1,15 @@
 # NUC8i5beh Hackintosh（OpenCore）
-`Updated on Oct 13,2021 by Yale Wei `
+`Updated on Jan 1,2022 by Yale Wei `
 
 ![Catalina](./pic/AboutThisMac_10.15.7.png)
 
-English | [简体中文](./README-zh_CN.md)
+English | [简体中文](./README-zh_CN.md)  
+[![Github](https://img.shields.io/badge/Github-blue.svg)](https://github.com/longanw/nuc8i5beh) [![Gitee](https://img.shields.io/badge/Gitee-brightgreen.svg)](https://gitee.com/yalewei/nuc8i5beh)
 
 #### Status：developing
-[![ThinkPad](https://img.shields.io/badge/NUC-NUC8i5BEH-blue.svg)](https://ark.intel.com/content/www/cn/zh/ark/products/126148/intel-nuc-kit-nuc8i5beh.html?wapkw=nuc8i5beh) [![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/longanw/nuc8i5beh/releases) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) [![itlwm](https://img.shields.io/badge/itlwm-2.0-blue.svg)](https://github.com/OpenIntelWireless/itlwm/releases) [![MacOS Catalina](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/) [![MacOS Big Sur](https://img.shields.io/badge/macOS-11.6.1-blue.svg)](https://www.apple.com/macos/big-sur/)[![MacOS Monterey](https://img.shields.io/badge/macOS-12.0.1-purple.svg)](https://www.apple.com/macos/monterey/)
+[![ThinkPad](https://img.shields.io/badge/NUC-NUC8i5BEH-blue.svg)](https://ark.intel.com/content/www/cn/zh/ark/products/126148/intel-nuc-kit-nuc8i5beh.html?wapkw=nuc8i5beh) [![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/longanw/nuc8i5beh/releases) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.6-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) [![itlwm](https://img.shields.io/badge/itlwm-2.1-blue.svg)](https://github.com/OpenIntelWireless/itlwm/releases) [![MacOS Catalina](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/) [![MacOS Big Sur](https://img.shields.io/badge/macOS-11.6.1-blue.svg)](https://www.apple.com/macos/big-sur/)[![MacOS Monterey](https://img.shields.io/badge/macOS-12.1-purple.svg)](https://www.apple.com/macos/monterey/)
 
-#### Config
+#### Specs
 
 | Name             | Information                            |
 | ---------------- | ---------------------------------------|
@@ -22,7 +23,7 @@ English | [简体中文](./README-zh_CN.md)
 | SSD              | NONE                                   |
 | Card Reader      | microSDXC Card Reader                  |
 | SMBios           | MacMini8,1                             |
-| BootLoader       | OpenCore 0.7.5                         |
+| BootLoader       | OpenCore 0.7.6                         |
 | BIOS             | 086                                    |
 
 #### Drivers
