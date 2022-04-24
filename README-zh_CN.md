@@ -1,5 +1,5 @@
 # NUC8i5beh黑苹果EFI文件
-`Yale Wei 更新于2022-01-01`
+`Yale Wei 更新于2022-04-24`
 
 ![Catalina](./pic/AboutThisMac_10.15.7.png)
 
@@ -7,12 +7,12 @@
 [![Github](https://img.shields.io/badge/Github-blue.svg)](https://github.com/longanw/nuc8i5beh) [![Gitee](https://img.shields.io/badge/Gitee-brightgreen.svg)](https://gitee.com/yalewei/nuc8i5beh)
 
 #### 简介
-豆子峡谷NUC8i5beh的黑苹果EFI文件，支持MacOS的版本有：Catalina、Big Sur和Monterey，目前主力系统为Catalina 10.15.7。intel WIFI和蓝牙驱动使用精简编译版以减少体积，其他资源均来自因特网。
+豆子峡谷NUC8i5beh的黑苹果EFI文件，支持MacOS的版本有：Catalina、Big Sur和Monterey，目前主力系统为Catalina 10.15.7。intel WIFI、蓝牙驱动和AppleALC均使用精简编译版（仅保留NUC8i5beh设备驱动，勿用于其他黑果设备）以减少体积，其他资源均来自因特网。
 
 附后的**常用工具**是仿照维奇编写的在线安装工具，可用于macOS和windows系统环境下的恢复和在线安装U盘制作，无需下载完整镜像，配合适合机器的EFI可方便的安装所有机型的黑苹果系统，欢迎体验及反馈。
 
 #### 状态：进行中
-[![ThinkPad](https://img.shields.io/badge/NUC-NUC8i5BEH-blue.svg)](https://ark.intel.com/content/www/cn/zh/ark/products/126148/intel-nuc-kit-nuc8i5beh.html?wapkw=nuc8i5beh) [![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/longanw/nuc8i5beh/releases) [![OpenCore](https://img.shields.io/badge/OpenCore-0.7.6-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) [![itlwm](https://img.shields.io/badge/itlwm-2.1-blue.svg)](https://github.com/OpenIntelWireless/itlwm/releases) [![MacOS Catalina](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/) [![MacOS Big Sur](https://img.shields.io/badge/macOS-11.6.1-blue.svg)](https://www.apple.com/macos/big-sur/)[![MacOS Monterey](https://img.shields.io/badge/macOS-12.1-purple.svg)](https://www.apple.com/macos/monterey/)
+[![ThinkPad](https://img.shields.io/badge/NUC-NUC8i5BEH-blue.svg)](https://ark.intel.com/content/www/cn/zh/ark/products/126148/intel-nuc-kit-nuc8i5beh.html?wapkw=nuc8i5beh) [![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/longanw/nuc8i5beh/releases) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.0-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) [![itlwm](https://img.shields.io/badge/itlwm-2.2-blue.svg)](https://github.com/OpenIntelWireless/itlwm/releases) [![MacOS Catalina](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/) [![MacOS Big Sur](https://img.shields.io/badge/macOS-11.6.5-blue.svg)](https://www.apple.com/macos/big-sur/)[![MacOS Monterey](https://img.shields.io/badge/macOS-12.3.1-purple.svg)](https://www.apple.com/macos/monterey/)
 
 #### NUC配置表
 
@@ -28,8 +28,8 @@
 | SSD              | NONE                                   |
 | Card Reader      | microSDXC Card Reader                  |
 | SMBios           | MacMini8,1                             |
-| BootLoader       | OpenCore 0.7.6                         |
-| BIOS             | 086                                    |
+| BootLoader       | OpenCore 0.8.0                         |
+| BIOS             | 089                                    |
 
 #### 驱动情况
 
@@ -58,7 +58,7 @@ Boot -> Boot Configuration -> Network Boot: Disable
 Boot -> Secure Boot -> Disable
 ```
 #### 存在问题
-- HDMI接口输出存在闪屏现象，换了几根在Windows下可用的HDMI线（可以4K@60Hz）均未解决，用type-C转DP接口一切正常，不知道是否与显示器Dell U2718Q兼容有关；
+- HDMI接口输出存在闪屏现象，换了一根品质比较好的线即可解决；
 - type-C口可能出现无输出显示问题，目前最稳妥的解决办法是拔掉电源等几分钟再开机即可。
 
 #### 常用工具
