@@ -1,5 +1,5 @@
 # NUC8i5beh黑苹果EFI文件
-`Yale Wei 更新于2022-04-24`
+`Yale Wei 更新于2023-06-13`
 
 ![Catalina](./pic/AboutThisMac_10.15.7.png)
 
@@ -7,12 +7,12 @@
 [![Github](https://img.shields.io/badge/Github-blue.svg)](https://github.com/longanw/nuc8i5beh) [![Gitee](https://img.shields.io/badge/Gitee-brightgreen.svg)](https://gitee.com/yalewei/nuc8i5beh)
 
 #### 简介
-豆子峡谷NUC8i5beh的黑苹果EFI文件，支持MacOS的版本有：Catalina、Big Sur和Monterey，目前主力系统为Catalina 10.15.7。intel WIFI、蓝牙驱动和AppleALC均使用精简编译版（仅保留NUC8i5beh设备驱动，勿用于其他黑果设备）以减少体积，其他资源均来自因特网。
+豆子峡谷NUC8i5beh的黑苹果EFI配置文件集，同时支持Catalina和Monterey启动，目前主力系统为Catalina 10.15.7。其中的intel WIFI (AirportItlwm.kext)、蓝牙 (IntelBluetoothFirmware.kext)和声卡 (AppleALC.kext)均采用精简编译版（仅保留NUC8i5beh设备驱动，勿用于其他黑果设备）以减少体积，其他资源均来自因特网。
 
-附后的**常用工具**是仿照维奇编写的在线安装工具，可用于macOS和windows系统环境下的恢复和在线安装U盘制作，无需下载完整镜像，配合适合机器的EFI可方便的安装所有机型的黑苹果系统，欢迎体验及反馈。
+附后**常用工具**是仿照维奇编写的在线安装工具，可用于macOS和windows系统环境下的恢复和在线安装U盘制作，无需下载完整镜像，搭配适合机器的EFI配置文件集，可方便安装对应机型的各个版本的苹果系统，欢迎体验及反馈。
 
 #### 状态：进行中
-[![ThinkPad](https://img.shields.io/badge/NUC-NUC8i5BEH-blue.svg)](https://ark.intel.com/content/www/cn/zh/ark/products/126148/intel-nuc-kit-nuc8i5beh.html?wapkw=nuc8i5beh) [![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/longanw/nuc8i5beh/releases) [![OpenCore](https://img.shields.io/badge/OpenCore-0.8.0-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) [![itlwm](https://img.shields.io/badge/itlwm-2.2-blue.svg)](https://github.com/OpenIntelWireless/itlwm/releases) [![MacOS Catalina](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/) [![MacOS Big Sur](https://img.shields.io/badge/macOS-11.6.5-blue.svg)](https://www.apple.com/macos/big-sur/)[![MacOS Monterey](https://img.shields.io/badge/macOS-12.3.1-purple.svg)](https://www.apple.com/macos/monterey/)
+[![ThinkPad](https://img.shields.io/badge/NUC-NUC8i5BEH-blue.svg)](https://ark.intel.com/content/www/cn/zh/ark/products/126148/intel-nuc-kit-nuc8i5beh.html?wapkw=nuc8i5beh) [![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/longanw/nuc8i5beh/releases) [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.3-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) [![itlwm](https://img.shields.io/badge/itlwm-2.2 stable-blue.svg)](https://github.com/OpenIntelWireless/itlwm/releases) [![MacOS Catalina](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/) [![MacOS Monterey](https://img.shields.io/badge/macOS-12.6-blue.svg)](https://www.apple.com/macos/monterey/) [![MacOS Ventura](https://img.shields.io/badge/macOS-13.4-brightgreen.svg)](https://www.apple.com/macos/ventura/)
 
 #### NUC配置表
 
@@ -28,8 +28,8 @@
 | SSD              | NONE                                   |
 | Card Reader      | microSDXC Card Reader                  |
 | SMBios           | MacMini8,1                             |
-| BootLoader       | OpenCore 0.8.0                         |
-| BIOS             | 089                                    |
+| BootLoader       | OpenCore 0.9.3                         |
+| BIOS             | 090                                    |
 
 #### 驱动情况
 
@@ -58,8 +58,8 @@ Boot -> Boot Configuration -> Network Boot: Disable
 Boot -> Secure Boot -> Disable
 ```
 #### 存在问题
-- HDMI接口输出存在闪屏现象，换了一根品质比较好的线即可解决；
-- type-C口可能出现无输出显示问题，目前最稳妥的解决办法是拔掉电源等几分钟再开机即可。
+- HDMI接口输出可能存在闪屏现象，需换根品质好的连接线应该可以解决；
+- 采用type-C转DP线输出，偶尔会在开机或者使用过程中出现无输出情况，目前采用重启显示器电源解决，具体原因不明。
 
 #### 常用工具
 
