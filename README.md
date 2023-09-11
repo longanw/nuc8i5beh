@@ -1,5 +1,5 @@
 # NUC8i5beh Hackintosh（OpenCore）
-`Updated on June. 13,2023 by Yale Wei `
+`Updated on Sept. 11,　2023 by Yale Wei `
 
 ![Catalina](./pic/AboutThisMac_10.15.7.png)
 
@@ -9,7 +9,7 @@ English | [简体中文](./README-zh_CN.md)
 Nuc8i5beh's EFI configs for hackintosh, It can be using Catalina and Monterey OS, for personality purpose.
 
 #### Status：developing
-[![ThinkPad](https://img.shields.io/badge/NUC-NUC8i5BEH-blue.svg)](https://ark.intel.com/content/www/cn/zh/ark/products/126148/intel-nuc-kit-nuc8i5beh.html?wapkw=nuc8i5beh) [![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/longanw/nuc8i5beh/releases) [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.3-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) [![itlwm](https://img.shields.io/badge/itlwm-2.2stable-blue.svg)](https://github.com/OpenIntelWireless/itlwm/releases) [![MacOS Catalina](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/) [![MacOS Big Sur](https://img.shields.io/badge/macOS-12.6-blue.svg)](https://www.apple.com/macos/big-sur/)[![MacOS Monterey](https://img.shields.io/badge/macOS-13.4-purple.svg)](https://www.apple.com/macos/monterey/)
+[![NUC8i5BEH](https://img.shields.io/badge/NUC-NUC8i5BEH-blue.svg)](https://ark.intel.com/content/www/cn/zh/ark/products/126148/intel-nuc-kit-nuc8i5beh.html?wapkw=nuc8i5beh) [![release](https://img.shields.io/badge/Download-latest-brightgreen.svg)](https://github.com/longanw/nuc8i5beh/releases) [![OpenCore](https://img.shields.io/badge/OpenCore-0.9.5-blue.svg)](https://github.com/acidanthera/OpenCorePkg/releases/latest) [![itlwm](https://img.shields.io/badge/itlwm-2.3Alpha-blue.svg)](https://github.com/OpenIntelWireless/itlwm/releases) [![MacOS Catalina](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/) [![MacOS Monterey](https://img.shields.io/badge/macOS-12.6.8-blue.svg)](https://www.apple.com/macos/monterey/)[![MacOS Ventura](https://img.shields.io/badge/macOS-13.5.2-purple.svg)](https://www.apple.com/macos/ventura/)
 
 #### Specs
 
@@ -19,14 +19,14 @@ Nuc8i5beh's EFI configs for hackintosh, It can be using Catalina and Monterey OS
 | iGPU             | Intel Iris® Plus 655                   |
 | Lan              | Intel I219-V                           |
 | Audio            | Realtek ALC235                         |
-| Ram              | Kingston 16Gb ddr4 2400 Mhz            |
+| Ram              | Kingston 16GB*2 ddr4 2400 Mhz            |
 | Wifi + Bluetooth | Intel® Wireless-AC 9560 + Bluetooth 5.0|
 | Nvme             | INTEL 760P 512GB                       |
 | SSD              | NONE                                   |
 | Card Reader      | microSDXC Card Reader                  |
 | SMBios           | MacMini8,1                             |
-| BootLoader       | OpenCore 0.9.3                         |
-| BIOS             | 090                                    |
+| BootLoader       | OpenCore 0.9.5                         |
+| BIOS             | 092                                    |
 
 #### Drivers
 
